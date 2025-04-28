@@ -56,3 +56,30 @@
   align-items: center;
   justify-content: space-between;
 }
+
+/* tarefas concluídas */
+.completed {
+  background-color: #f1f8e9; 
+  text-decoration: line-through;
+  color: #a5d6a7;
+}
+
+/* checkbox */
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* botão de deletar */
+.deleteButton {
+  padding: 0.5rem 1rem;
+  background-color: #e57373;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #f44336;
+}
